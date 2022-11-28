@@ -1,0 +1,8 @@
+﻿@using MenuStateExample.Services.Menus;
+<button title="Navigation menu" class="navbar-toggler" @onclick="Menu.ToggleNavMenu">
+    <span class="navbar-toggler-icon"></span>
+</button>
+@code {
+    [Inject]
+    private MenuStateService Menu { get; set; }
+}

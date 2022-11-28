@@ -1,0 +1,26 @@
+.navbar-toggler {
+	/*background-color: rgba(255, 255, 255, 0.1);*/
+	background-color: forestgreen;
+}
+
+::deep .navbar-toggler-icon {
+	color: gold;
+}
+
+.oi {
+	width: 2rem;
+	font-size: 1.1rem;
+	vertical-align: text-top;
+	top: -2px;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
